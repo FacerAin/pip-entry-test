@@ -1,5 +1,7 @@
 ## pip entry test
-entry point test for pip  
+This repo is to test the entry point configuration of pip package.  
+
+Using this mothod, you can create **more utilizable Python package for CLI.**  
 
 You can see PYPI package on [here](https://pypi.org/project/entrytest/) for testing.
 
@@ -7,4 +9,5 @@ You can see PYPI package on [here](https://pypi.org/project/entrytest/) for test
 ```
 pip install entrytest
 entrytest test start run
+#['test', 'start', 'run']
 ```
