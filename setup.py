@@ -1,20 +1,21 @@
 import setuptools
 
 setuptools.setup(
-        name="entrytest",
+    name="entrytest",
     version="0.31",
-    license='MIT',
+    license="MIT",
     author="FacerAin",
     author_email="syw5141@gmail.com",
     description="test pip entry point",
-    long_description=open('README.md').read(),
+    url="https://github.com/FacerAin/pip-entry-test",
+    long_description=open("README.md").read(),
     packages=setuptools.find_packages(),
     classifiers=[
         # 패키지에 대한 태그
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent"
+        "Operating System :: OS Independent",
     ],
     entry_points={"console_scripts": ["entrytest = entrytest.app:main"]},
-    scripts=["bin/entrytest.cmd"]
+    scripts=["bin/entrytest.cmd"],
 )
